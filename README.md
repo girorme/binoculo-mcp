@@ -34,6 +34,12 @@ Update your mcp settings
 }
 ```
 
+or if you're using [uv](https://docs.astral.sh/uv/) to manage python projects just:
+
+```
+R:\repositorios\binoculo-mcp> uv run mcp install bridge_mcp_binoculo.py
+```
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
