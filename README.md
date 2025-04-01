@@ -8,24 +8,38 @@ This project is a **Message Control Protocol (MCP) Server** designed to interact
 - **Customizable Queries**: Define specific targets and filters for your banner-grabbing tasks.
 - **Work in Progress**: This project is under active development, and new features are being added regularly.
 
+## Usage
+
 ## Installation
 
 
-## Usage
-
-
-
-## Roadmap
-
+### Claude desktop
+Update your mcp settings
+```json
+{
+  "mcpServers": {
+    "binoculo-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "requests",
+        "mcp",
+        "run",
+        "/ABSOLUTE_PATH_TO/bridge_mcp_binoculo.py"
+      ]
+    }
+  }
+}
+```
 
 ## Contributing
-
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
 - [Binoculo](https://github.com/girorme/binoculo) for providing the core functionality for banner grabbing.

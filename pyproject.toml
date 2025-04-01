@@ -1,0 +1,10 @@
+[project]
+name = "binoculo-mcp"
+version = "0.1.0"
+description = "Message Control Protocol (MCP) Server designed to interact with the Binoculo tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+]
