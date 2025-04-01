@@ -9,10 +9,9 @@ This project is a **Message Control Protocol (MCP) Server** designed to interact
 - **Work in Progress**: This project is under active development, and new features are being added regularly.
 
 ## Usage
+https://github.com/user-attachments/assets/88024174-7cac-496b-a667-56e618890d02
 
 ## Installation
-
-
 ### Claude desktop
 Update your mcp settings
 ```json
