@@ -8,37 +8,24 @@ This project is a **Message Control Protocol (MCP) Server** designed to interact
 - **Customizable Queries**: Define specific targets and filters for your banner-grabbing tasks.
 - **Work in Progress**: This project is under active development, and new features are being added regularly.
 
+## Prerequisites
+- Python3
+- uv
+- Docker (soon)
+- MCP (sdk)
+- Run binoculo server
+
 ## Usage
 https://github.com/user-attachments/assets/88024174-7cac-496b-a667-56e618890d02
 
 ## Installation
 ### Claude desktop
-Update your mcp settings
-```json
-{
-  "mcpServers": {
-    "binoculo-mcp": {
-      "command": "uv",
-      "args": [
-        "run",
-        "--with",
-        "mcp[cli]",
-        "--with",
-        "requests",
-        "mcp",
-        "run",
-        "/ABSOLUTE_PATH_TO/bridge_mcp_binoculo.py"
-      ]
-    }
-  }
-}
-```
-
-or if you're using [uv](https://docs.astral.sh/uv/) to manage python projects just:
-
 ```
 R:\repositorios\binoculo-mcp> uv run mcp install bridge_mcp_binoculo.py
 ```
+
+### Run binoculo server
+- TODO
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
