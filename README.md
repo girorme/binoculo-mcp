@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/girorme-binoculo-mcp-badge.png)](https://mseep.ai/app/girorme-binoculo-mcp)
+
 # BinoculoMCP
 
 This project is a **Message Control Protocol (MCP) Server** designed to interact with the [Binoculo tool](https://github.com/girorme/binoculo). The goal of this project is to facilitate banner-grabbing operations by sending requests to Binoculo and processing its responses.
