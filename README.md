@@ -9,6 +9,7 @@ This project is a **Message Control Protocol (MCP) Server** designed to interact
    <img align="center" src="https://mseep.net/pr/girorme-binoculo-mcp-badge.png"/>
   </a>
 </p>
+
 ## Features
 
 - **Banner Grabbing**: Ask Binoculo to perform operations like "grab all the Apache servers in the 192.168.0.1/24 range."
